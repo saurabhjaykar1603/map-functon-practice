@@ -4,9 +4,7 @@
 // const arr = [3,5,8]
 // arr.map(hi)
 
-function square(num){
-    console.log(num*num);
-
-}
- const arr = [ 1, 2, 3 ,4 ,5]
- arr.map(square)
+const students = ["Harry","Ron","Hermione","Draco"]
+students.map((stude)=>{
+    console.log(`hello ${stude}!`);
+})
